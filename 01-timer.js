@@ -1,0 +1,2 @@
+import"./assets/styles-CKTh7Fh0.js";import{f as l}from"./assets/vendor-EyZmBGcZ.js";let a=null;const o=document.getElementById("datetime-picker"),s={enableTime:!0,time_24hr:!0,defaultDate:new Date,minuteIncrement:1,onClose(e){a=e[0],c()}};l(o,s);const c=()=>{const n=a-new Date,t=document.querySelector("button[data-start");n<=0?(t.disabled=!0,alert("Please select a date in the future.")):t.disabled=!1};
+//# sourceMappingURL=01-timer.js.map
