@@ -1,0 +1,34 @@
+form.form{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 35px;
+}
+
+input[name="delay"]{
+    font-size: 1.4rem;
+    width: 185px;
+    padding: 6px 12px;
+    border-radius: 7px;
+    border: 1px solid #444444;
+}
+fieldset{
+    border-radius: 7px;
+    border: 1px solid #444444;
+}
+
+button[type="submit"]{
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color:cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    width: 300px;
+}
+
+button[type="submit"]:hover{
+    background-color:rgb(155, 183, 235);
+}

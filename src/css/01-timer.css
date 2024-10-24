@@ -1,3 +1,51 @@
 button:disabled{
     pointer-events: none;
+    background-color: #cccccc !important;
+}
+
+input#datetime-picker{
+    margin-right: 5px;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 200px;
+    padding: 6px 12px;
+    border-radius: 7px;
+    border: 1px solid #444444;
+}
+
+button[data-start]{
+    margin-top: 10px;
+    padding: 7px 12px;
+    background-color:cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    width: 100px;
+}
+
+button[data-start]:hover{
+    background-color:rgb(155, 183, 235);
+}
+
+.timer{
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field{
+    width: 24%;
+    display: inline-block;
+}
+
+span{
+    display: block;
+}
+
+span.value{
+    font-size: 2.5rem
+}
+span.label{
+    font-size: 1.2rem
 }

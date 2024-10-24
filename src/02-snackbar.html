@@ -21,6 +21,26 @@
         </h1>
         <load src="./partials/back-link.html" />
       </div>
+
+      <div class="container">
+        <form class="form">
+          <label>Delay (ms)</label>
+          <input type="number" name="delay" />
+
+          <fieldset>
+            <legend>State</legend>
+            <label>Fulfilled</label>
+            <input type="radio" name="state" value="fulfilled" >
+            <label>Rejected</label>
+            <input type="radio" name="state" value="rejected"/>
+          </fieldset>
+
+          <button type="submit">Create notification</button>
+        </form>
+
+      </div>
+
+
     </main>
 
     <load src="./partials/footer.html" />
